@@ -1,0 +1,140 @@
+/***** Basestyle *****/
+@font-face{
+  font-family: "Wisdom Script";
+  src: url(../fonts/wisdom-script.otf)(format("opentype"));
+}
+
+/***** Grid *****/
+body{
+  font-family: Montserrat;
+  width: 1240px;
+  background: white;
+}
+main{
+  width: 1200px;
+  margin: 0px auto;
+}
+.full-width{
+  width: 1200px;
+  height: auto;
+  margin: 0px auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+  margin: 0px auto;
+}
+.third-width{
+  width: 400px;
+  float: left;
+  margin: 0px auto;
+}
+
+/***** Header *****/
+header{
+  height: 110px;
+  width: 1200px;
+  margin: 0px auto;
+
+}
+header h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: black;
+  margin: 35px 0px auto;
+}
+header h1 span{
+  color: #77a466;
+}
+nav{
+  float: right;
+  margin: 30px 0px auto;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  color: #77a466;
+  padding-left: 20px;
+}
+/***** Top section *****/
+section img{
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+.top-section h4, .top-section p{
+  clear: both;
+}
+.top-section h4{
+  text-transform: uppercase;
+  color: #77a466;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-top: 0px;
+  float: left;
+}
+.top-section p{
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 20px 10px 5px;
+}
+/***** Bottom Section *****/
+section-bottom, #full-width{
+  border-top: 1px solid #eee;
+
+}
+.third-width{
+  height: auto;
+}
+h4{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+p{
+  font-size: 16px;
+}
+#section-one{
+  width:395px;
+  padding-left: 5px;
+}
+#section-one p{
+  line-height: 40px;
+  color: #9bbc8f
+}
+#section-two{
+  width:325px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  line-height: 25px;
+  padding-left: 30px;
+  padding-right: 43px;
+  padding-bottom: 5px;
+}
+
+#section-three{
+  width:370px;
+  padding-left: 30px;
+
+  line-height: 25px;
+}
+/***** Footer *****/
+footer h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  clear:both;
+  padding-top:20px;
+  border-top:1px solid #eee;
+}
+footer h4 span{
+  font-family: "Wisdom-Script", cursive;
+  color: #77a466;
+  text-transform: lowercase;
+  font-weight: 14px;
+
+
+}
